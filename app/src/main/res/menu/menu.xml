@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <item
+                android:id="@+id/next_month"
+                android:icon="@drawable/right"
+                android:title="다음달"
+                app:showAsAction="always">
+        </item>
+
+        <item
+            android:id="@+id/today"
+            android:title="오늘"
+            android:checked="true"
+            app:showAsAction="always">
+        </item>
+
+        <item
+            android:id="@+id/see"
+            android:title="보기방식"
+            android:checked="true"
+            app:showAsAction="always">
+        </item>
+
+        <item
+            android:id="@+id/month"
+            android:title="월별달력"
+            android:checked="true"
+            app:showAsAction="never">
+        </item>
+
+        <item
+            android:id="@+id/week"
+            android:title="주간달력"
+            android:checked="true"
+            app:showAsAction="never">
+        </item>
+
+</menu>
